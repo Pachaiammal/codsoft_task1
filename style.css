@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #e7b2dc;
+    color: #040704;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #be57d3;
+    color: #000000;
+    padding-top: 2px;
+    min-height: 30px;
+    border-bottom: #790d79 3px solid;
+}
+
+header a {
+    color: #020101;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul {
+    padding: 0;
+    list-style: none;
+}
+
+header ul li {
+    display: inline;
+    padding: 0 20px;
+}
+
+header #branding {
+    float: left;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+/* Container for the about section */
+#about .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Style for the description text */
+#about p {
+    flex: 1;
+    margin-right: 20px;
+    text-align: left; /* Align text to the left */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Style for the profile image */
+#about img {
+    max-width: 250px;
+    height: auto;
+    border-radius: 50%;
+    margin-left: 20px;
+    display: block;
+    align-self: center;
+}
+
+
+
+.section {
+    padding: 20px 0;
+    margin-bottom: 20px;
+    background: #fff;
+    border-radius: 5px;
+}
+
+.section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#projects .project-grid {
+    display: block; /* Change from flex to block */
+}
+
+#projects .project-item {
+    background: #cf47eb;
+    color: #fff;
+    padding: 20px;
+    width: 90%; /* Full-width */
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 20px; /* Adds space between the items */
+}
+
+
+.btn {
+    display: inline-block;
+    background: #2ce45a;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact form input,
+#contact form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact form button {
+    padding: 10px;
+    background: #24e053;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #d632db;
+    color: #020101;
+}
